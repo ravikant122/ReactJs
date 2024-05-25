@@ -1,0 +1,8 @@
+How to create Project
+1. npx create-react-app <project_name> (no need to update create-react-app)
+
+or
+
+2. npm install create-react-app -g (install create-react-app globally)
+create-react-app <project_name> (then create project)
+(project with npm is we've to keep updating create-react-app when its installed globally)
