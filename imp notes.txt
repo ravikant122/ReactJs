@@ -7,6 +7,9 @@ How to create Project
   create-react-app <project_name> (then create project)
   (project with npm is we've to keep updating create-react-app when its installed globally)
 
+  or
+
+  3. use vite
 
 Folder structure
   there's only one file - /public/index.html - we only see this file means there's only one html
@@ -15,9 +18,10 @@ Folder structure
   that's why its called single page application (SPA)
 
 
-How index.html and index.js are linked when there's no script tag in index.html
+when we create project using create-react-app, How index.html and index.js are linked when there's no script tag in index.html
   when we run npm start - it start the project - and a file gets run npm/react-scripts/start.js
   this start.js calls react-scripts/config/webpack.config.js 
   this webpack link the index.html and index.js file
   read this - https://medium.com/@pradumnabajoria/how-does-index-js-run-in-a-react-app-fc9ca20001c8#:~:text=html%20%26%20index.,called%20inside%20the%20HTML%20file.
   
+when we create project using vite - in index.html file index.js is linked
